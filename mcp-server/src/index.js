@@ -11,11 +11,25 @@
 // Run as an MCP stdio server (default), or for a quick check:
 //   node src/index.js --selftest "how does smart hold handle turnover time"
 
+import fs from 'node:fs';
+import path from 'node:path';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
 import { ingestAll, PKB_ROOT } from './ingest.js';
 import { buildIndex, search } from './search.js';
+
+// Append-only query log. The observability layer reads this to find the most
+// asked questions and, more usefully, the queries that returned nothing (the
+// content gaps). Best-effort: a logging failure must never break a search.
+const QUERY_LOG = process.env.PKB_QUERY_LOG || path.join(PKB_ROOT, 'scripts', 'query-log.jsonl');
+function logQuery(entry) {
+  try {
+    fs.appendFileSync(QUERY_LOG, JSON.stringify(entry) + '\n');
+  } catch {
+    /* logging is best-effort; swallow it */
+  }
+}
 
 // Build the index once at startup. Re-run the process to pick up content changes.
 const docs = ingestAll();
@@ -65,6 +79,14 @@ server.registerTool(
   },
   async ({ query, top_k, source }) => {
     const results = search(index, query, { topK: top_k ?? 5, source: source ?? null });
+    logQuery({
+      ts: new Date().toISOString(),
+      query,
+      source: source ?? null,
+      topK: top_k ?? 5,
+      resultCount: results.length,
+      topScore: results[0]?.score ?? 0,
+    });
     if (results.length === 0) {
       return {
         content: [

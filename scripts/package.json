@@ -6,7 +6,9 @@
   "description": "Routing and observability scripts over the VenueOS PKB ingest output.",
   "scripts": {
     "route": "node route.js",
-    "route:json": "node route.js --json"
+    "route:json": "node route.js --json",
+    "observe": "node observe.js",
+    "observe:json": "node observe.js --json"
   },
   "engines": { "node": ">=18.0" }
 }

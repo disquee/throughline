@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-06-17",
+  "queries": {
+    "totalQueries": 44,
+    "uniqueQueries": 18,
+    "span": {
+      "from": "2026-06-08",
+      "to": "2026-06-11"
+    },
+    "sourceFilterRate": 4.5,
+    "zeroResultRate": 6.8,
+    "topQueries": [
+      {
+        "query": "how does smart hold handle turnover time",
+        "count": 5,
+        "resultCount": 5,
+        "topScore": 4.8276
+      },
+      {
+        "query": "smart hold overview",
+        "count": 4,
+        "resultCount": 5,
+        "topScore": 5.1516
+      },
+      {
+        "query": "cancellation policy",
+        "count": 4,
+        "resultCount": 1,
+        "topScore": 3.0446
+      },
+      {
+        "query": "holds api endpoints",
+        "count": 3,
+        "resultCount": 5,
+        "topScore": 4.4983
+      },
+      {
+        "query": "what is in release 2026.2",
+        "count": 3,
+        "resultCount": 5,
+        "topScore": 3.7304
+      },
+      {
+        "query": "double booking prevention",
+        "count": 3,
+        "resultCount": 5,
+        "topScore": 3.3523
+      },
+      {
+        "query": "how do refunds work",
+        "count": 3,
+        "resultCount": 5,
+        "topScore": 2.6701
+      },
+      {
+        "query": "hold expiration time",
+        "count": 2,
+        "resultCount": 5,
+        "topScore": 1.8059
+      }
+    ],
+    "hardGaps": [
+      {
+        "query": "pricing tiers and plans",
+        "count": 2,
+        "resultCount": 0,
+        "topScore": 0
+      },
+      {
+        "query": "gdpr data retention",
+        "count": 1,
+        "resultCount": 0,
+        "topScore": 0
+      }
+    ],
+    "weakCoverage": [
+      {
+        "query": "hold expiration time",
+        "count": 2,
+        "resultCount": 5,
+        "topScore": 1.8059
+      },
+      {
+        "query": "sso single sign on setup",
+        "count": 2,
+        "resultCount": 1,
+        "topScore": 2.3224
+      }
+    ]
+  },
+  "staleness": {
+    "drift": [],
+    "coldSources": [
+      {
+        "id": "confluence:booking-rules-config",
+        "lastUpdated": "2025-08-12",
+        "ageDays": 309,
+        "owner": "Sofia Almeida"
+      }
+    ],
+    "orphans": [
+      {
+        "id": "confluence:booking-rules-config",
+        "lastUpdated": "2025-08-12",
+        "ageDays": 309,
+        "owner": "Sofia Almeida"
+      }
+    ],
+    "lineage": {
+      "published:api/holds": [
+        "confluence:holds-api"
+      ],
+      "published:features/smart-hold": [
+        "confluence:smart-hold-overview"
+      ],
+      "published:intro": [],
+      "published:releases/2026-2": [
+        "confluence:release-notes-2026-2"
+      ]
+    }
+  }
+}

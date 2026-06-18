@@ -1,0 +1,44 @@
+{"ts":"2026-06-08T11:18:00.000Z","query":"how does smart hold handle turnover time","source":null,"topK":5,"resultCount":5,"topScore":4.8276}
+{"ts":"2026-06-08T14:54:00.000Z","query":"how does smart hold handle turnover time","source":null,"topK":5,"resultCount":5,"topScore":4.8276}
+{"ts":"2026-06-08T16:08:00.000Z","query":"how does smart hold handle turnover time","source":null,"topK":5,"resultCount":5,"topScore":4.8276}
+{"ts":"2026-06-08T17:35:00.000Z","query":"how does smart hold handle turnover time","source":null,"topK":5,"resultCount":5,"topScore":4.8276}
+{"ts":"2026-06-08T20:45:00.000Z","query":"how does smart hold handle turnover time","source":null,"topK":5,"resultCount":5,"topScore":4.8276}
+{"ts":"2026-06-08T22:21:00.000Z","query":"smart hold overview","source":null,"topK":5,"resultCount":5,"topScore":5.1516}
+{"ts":"2026-06-08T23:19:00.000Z","query":"smart hold overview","source":null,"topK":5,"resultCount":5,"topScore":5.1516}
+{"ts":"2026-06-09T01:29:00.000Z","query":"smart hold overview","source":null,"topK":5,"resultCount":5,"topScore":5.1516}
+{"ts":"2026-06-09T02:33:00.000Z","query":"smart hold overview","source":null,"topK":5,"resultCount":5,"topScore":5.1516}
+{"ts":"2026-06-09T03:23:00.000Z","query":"holds api endpoints","source":null,"topK":5,"resultCount":5,"topScore":4.4983}
+{"ts":"2026-06-09T04:15:00.000Z","query":"holds api endpoints","source":null,"topK":5,"resultCount":5,"topScore":4.4983}
+{"ts":"2026-06-09T05:03:00.000Z","query":"holds api endpoints","source":null,"topK":5,"resultCount":5,"topScore":4.4983}
+{"ts":"2026-06-09T06:48:00.000Z","query":"what is in release 2026.2","source":null,"topK":5,"resultCount":5,"topScore":3.7304}
+{"ts":"2026-06-09T09:38:00.000Z","query":"what is in release 2026.2","source":null,"topK":5,"resultCount":5,"topScore":3.7304}
+{"ts":"2026-06-09T13:16:00.000Z","query":"what is in release 2026.2","source":null,"topK":5,"resultCount":5,"topScore":3.7304}
+{"ts":"2026-06-09T14:59:00.000Z","query":"double booking prevention","source":null,"topK":5,"resultCount":5,"topScore":3.3523}
+{"ts":"2026-06-09T18:17:00.000Z","query":"double booking prevention","source":null,"topK":5,"resultCount":5,"topScore":3.3523}
+{"ts":"2026-06-09T21:38:00.000Z","query":"double booking prevention","source":null,"topK":5,"resultCount":5,"topScore":3.3523}
+{"ts":"2026-06-09T22:21:00.000Z","query":"hold expiration time","source":null,"topK":5,"resultCount":5,"topScore":1.8059}
+{"ts":"2026-06-10T00:23:00.000Z","query":"hold expiration time","source":null,"topK":5,"resultCount":5,"topScore":1.8059}
+{"ts":"2026-06-10T03:23:00.000Z","query":"booking rules configuration","source":null,"topK":5,"resultCount":5,"topScore":3.2963}
+{"ts":"2026-06-10T04:34:00.000Z","query":"booking rules configuration","source":null,"topK":5,"resultCount":5,"topScore":3.2963}
+{"ts":"2026-06-10T05:45:00.000Z","query":"floorplan v2","source":null,"topK":5,"resultCount":5,"topScore":6.4824}
+{"ts":"2026-06-10T07:02:00.000Z","query":"floorplan v2","source":null,"topK":5,"resultCount":5,"topScore":6.4824}
+{"ts":"2026-06-10T09:02:00.000Z","query":"api authentication for holds","source":"published","topK":5,"resultCount":3,"topScore":4.4983}
+{"ts":"2026-06-10T12:37:00.000Z","query":"api authentication for holds","source":"published","topK":5,"resultCount":3,"topScore":4.4983}
+{"ts":"2026-06-10T15:28:00.000Z","query":"release notes 2026.2","source":null,"topK":5,"resultCount":5,"topScore":5.6939}
+{"ts":"2026-06-10T18:05:00.000Z","query":"release notes 2026.2","source":null,"topK":5,"resultCount":5,"topScore":5.6939}
+{"ts":"2026-06-10T20:27:00.000Z","query":"smart hold turnover buffer","source":null,"topK":5,"resultCount":5,"topScore":5.0212}
+{"ts":"2026-06-10T20:52:00.000Z","query":"create a hold via api","source":null,"topK":5,"resultCount":5,"topScore":5.5758}
+{"ts":"2026-06-10T21:33:00.000Z","query":"cancellation policy","source":null,"topK":5,"resultCount":1,"topScore":3.0446}
+{"ts":"2026-06-10T23:32:00.000Z","query":"cancellation policy","source":null,"topK":5,"resultCount":1,"topScore":3.0446}
+{"ts":"2026-06-11T00:24:00.000Z","query":"cancellation policy","source":null,"topK":5,"resultCount":1,"topScore":3.0446}
+{"ts":"2026-06-11T02:57:00.000Z","query":"cancellation policy","source":null,"topK":5,"resultCount":1,"topScore":3.0446}
+{"ts":"2026-06-11T03:39:00.000Z","query":"how do refunds work","source":null,"topK":5,"resultCount":5,"topScore":2.6701}
+{"ts":"2026-06-11T04:13:00.000Z","query":"how do refunds work","source":null,"topK":5,"resultCount":5,"topScore":2.6701}
+{"ts":"2026-06-11T04:53:00.000Z","query":"how do refunds work","source":null,"topK":5,"resultCount":5,"topScore":2.6701}
+{"ts":"2026-06-11T07:18:00.000Z","query":"mobile app check in","source":null,"topK":5,"resultCount":5,"topScore":4.3547}
+{"ts":"2026-06-11T08:15:00.000Z","query":"mobile app check in","source":null,"topK":5,"resultCount":5,"topScore":4.3547}
+{"ts":"2026-06-11T11:31:00.000Z","query":"sso single sign on setup","source":null,"topK":5,"resultCount":1,"topScore":2.3224}
+{"ts":"2026-06-11T12:44:00.000Z","query":"sso single sign on setup","source":null,"topK":5,"resultCount":1,"topScore":2.3224}
+{"ts":"2026-06-11T14:02:00.000Z","query":"pricing tiers and plans","source":null,"topK":5,"resultCount":0,"topScore":0}
+{"ts":"2026-06-11T16:27:00.000Z","query":"pricing tiers and plans","source":null,"topK":5,"resultCount":0,"topScore":0}
+{"ts":"2026-06-11T19:26:00.000Z","query":"gdpr data retention","source":null,"topK":5,"resultCount":0,"topScore":0}
