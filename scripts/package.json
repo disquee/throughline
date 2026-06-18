@@ -1,0 +1,12 @@
+{
+  "name": "venueos-pkb-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Routing and observability scripts over the VenueOS PKB ingest output.",
+  "scripts": {
+    "route": "node route.js",
+    "route:json": "node route.js --json"
+  },
+  "engines": { "node": ">=18.0" }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "venueos-pkb-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server that makes the VenueOS Product Knowledge Base retrievable by Claude with citations.",
+  "bin": { "venueos-pkb-mcp": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "selftest": "node src/index.js --selftest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "csv-parse": "^5.5.0",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.23.0"
+  },
+  "engines": { "node": ">=18.0" }
+}

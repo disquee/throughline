@@ -1,0 +1,8 @@
+node_modules/
+docusaurus/build/
+docusaurus/.docusaurus/
+.DS_Store
+*.log
+
+# internal project-context notes, not for the public repo
+CLAUDE_1.md

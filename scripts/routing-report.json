@@ -1,0 +1,389 @@
+{
+  "generatedAt": "2026-06-18",
+  "total": 22,
+  "target": {
+    "automated": 60,
+    "curated": 20,
+    "original": 20
+  },
+  "buckets": {
+    "automated": {
+      "count": 16,
+      "share": 72.7,
+      "target": 60,
+      "delta": 12.7,
+      "docs": [
+        "jira:VOS-1840",
+        "jira:VOS-1841",
+        "jira:VOS-1842",
+        "jira:VOS-1843",
+        "jira:VOS-1844",
+        "jira:VOS-1845",
+        "jira:VOS-1846",
+        "jira:VOS-1847",
+        "jira:VOS-1848",
+        "jira:VOS-1850",
+        "jira:VOS-1851",
+        "jira:VOS-1852",
+        "confluence:holds-api",
+        "confluence:release-notes-2026-2",
+        "published:api/holds",
+        "published:releases/2026-2"
+      ]
+    },
+    "curated": {
+      "count": 3,
+      "share": 13.6,
+      "target": 20,
+      "delta": -6.4,
+      "docs": [
+        "confluence:booking-rules-config",
+        "granola:2025-11-04-discovery-metro-convention-center",
+        "granola:2026-02-03-release-planning-2026-2"
+      ]
+    },
+    "original": {
+      "count": 3,
+      "share": 13.6,
+      "target": 20,
+      "delta": -6.4,
+      "docs": [
+        "confluence:smart-hold-overview",
+        "published:features/smart-hold",
+        "published:intro"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "id": "jira:VOS-1840",
+      "source": "jira",
+      "title": "VOS-1840 — Smart Hold: prevent venue double-booking",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.75,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1841",
+      "source": "jira",
+      "title": "VOS-1841 — Add HOLD status to booking state machine",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1842",
+      "source": "jira",
+      "title": "VOS-1842 — Hold expiry TTL configurable per venue",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1843",
+      "source": "jira",
+      "title": "VOS-1843 — Conflict detection across overlapping time ranges",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1844",
+      "source": "jira",
+      "title": "VOS-1844 — Conflict check ignores buffer/turnover time",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1845",
+      "source": "jira",
+      "title": "VOS-1845 — POST /v2/holds endpoint",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1846",
+      "source": "jira",
+      "title": "VOS-1846 — Release notes + KB article for Smart Hold",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": true,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1847",
+      "source": "jira",
+      "title": "VOS-1847 — Pendo guide for first-time hold creation",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": true,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1848",
+      "source": "jira",
+      "title": "VOS-1848 — Salesforce sync: surface hold status on Opportunity",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1850",
+      "source": "jira",
+      "title": "VOS-1850 — Floorplan Designer v2",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.75,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1851",
+      "source": "jira",
+      "title": "VOS-1851 — Multi-hall capacity rollups",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.8,
+        "stale": false
+      }
+    },
+    {
+      "id": "jira:VOS-1852",
+      "source": "jira",
+      "title": "VOS-1852 — Reporting export omits cancelled holds",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured issue record from the system of record, maps mechanically to status and release docs",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.75,
+        "stale": false
+      }
+    },
+    {
+      "id": "confluence:booking-rules-config",
+      "source": "confluence",
+      "title": "Configuring Booking Rules",
+      "route": "draft-then-review",
+      "bucket": "curated",
+      "reason": "source last updated 2025-08-12 (310d ago), regenerate a draft and have Sofia Almeida review",
+      "signals": {
+        "conceptual": false,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.57,
+        "stale": true
+      }
+    },
+    {
+      "id": "confluence:holds-api",
+      "source": "confluence",
+      "title": "Holds API Reference (v2)",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured reference content (73% structured lines), regenerates from the definitions",
+      "signals": {
+        "conceptual": false,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.73,
+        "stale": false
+      }
+    },
+    {
+      "id": "confluence:release-notes-2026-2",
+      "source": "confluence",
+      "title": "VenueOS 2026.2 Release Notes (internal draft)",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "release notes derive directly from resolved issues and the fix version",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": true,
+        "structuredRatio": 0.92,
+        "stale": false
+      }
+    },
+    {
+      "id": "confluence:smart-hold-overview",
+      "source": "confluence",
+      "title": "Smart Hold Overview",
+      "route": "human-authored",
+      "bucket": "original",
+      "reason": "conceptual or narrative page, the framing and judgment are the value and cannot be sourced mechanically",
+      "signals": {
+        "conceptual": true,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.56,
+        "stale": false
+      }
+    },
+    {
+      "id": "granola:2025-11-04-discovery-metro-convention-center",
+      "source": "granola",
+      "title": "Discovery — Metro Convention Center (double-booking pain)",
+      "route": "draft-then-review",
+      "bucket": "curated",
+      "reason": "raw meeting transcript, so a model can draft a summary but a person verifies the claims before it publishes",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.47,
+        "stale": false
+      }
+    },
+    {
+      "id": "granola:2026-02-03-release-planning-2026-2",
+      "source": "granola",
+      "title": "Release Planning — 2026.2 scope lock",
+      "route": "draft-then-review",
+      "bucket": "curated",
+      "reason": "raw meeting transcript, so a model can draft a summary but a person verifies the claims before it publishes",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": true,
+        "structuredRatio": 0.57,
+        "stale": false
+      }
+    },
+    {
+      "id": "published:api/holds",
+      "source": "published",
+      "title": "Holds API",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "structured reference content (79% structured lines), regenerates from the definitions",
+      "signals": {
+        "conceptual": false,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.79,
+        "stale": false
+      }
+    },
+    {
+      "id": "published:features/smart-hold",
+      "source": "published",
+      "title": "Smart Hold",
+      "route": "human-authored",
+      "bucket": "original",
+      "reason": "conceptual or narrative page, the framing and judgment are the value and cannot be sourced mechanically",
+      "signals": {
+        "conceptual": true,
+        "reference": true,
+        "releaseNotes": false,
+        "structuredRatio": 0.45,
+        "stale": false
+      }
+    },
+    {
+      "id": "published:intro",
+      "source": "published",
+      "title": "VenueOS Product Knowledge Base",
+      "route": "human-authored",
+      "bucket": "original",
+      "reason": "conceptual or narrative page, the framing and judgment are the value and cannot be sourced mechanically",
+      "signals": {
+        "conceptual": true,
+        "reference": false,
+        "releaseNotes": false,
+        "structuredRatio": 0.75,
+        "stale": false
+      }
+    },
+    {
+      "id": "published:releases/2026-2",
+      "source": "published",
+      "title": "VenueOS 2026.2",
+      "route": "auto-generate",
+      "bucket": "automated",
+      "reason": "release notes derive directly from resolved issues and the fix version",
+      "signals": {
+        "conceptual": false,
+        "reference": false,
+        "releaseNotes": true,
+        "structuredRatio": 0.67,
+        "stale": false
+      }
+    }
+  ]
+}
